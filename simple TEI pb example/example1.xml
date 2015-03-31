@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+
+<!DOCTYPE doc [
+<!ENTITY CharDecl SYSTEM "abbr.xml">
+]>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader type="text">
+        <fileDesc xml:lang="en">
+            <titleStmt>
+                <title type="main">Electronic Editiono</title>
+                <author>NAME</author>
+                <editor>Roman Bleier</editor>
+            </titleStmt>
+            <editionStmt>
+                <ab/>
+            </editionStmt>
+            <publicationStmt>
+                <ab/>
+            </publicationStmt>
+            <notesStmt>
+                <note/>
+            </notesStmt>
+            <sourceDesc default="false">
+                <ab/>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc xml:lang="en">
+            <ab/>
+        </encodingDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <pb n="1"/>
+            <div type="day" n="1">
+                <p>start of day 1 on page 1</p>
+                <pb n="2"/>
+                <p>continuation of day 1 on page 2</p>
+            </div>
+            <div type="day" n="2">
+                <p>start of day 2 on page 2</p>
+                <pb n="3"/>
+                <p>continuation of day 2 on page 3</p>
+            </div>
+        </body>
+    </text>
+</TEI>
