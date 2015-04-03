@@ -9,7 +9,7 @@
     <teiHeader type="text">
         <fileDesc xml:lang="en">
             <titleStmt>
-                <title type="main">Electronic Editiono</title>
+                <title type="main">Electronic Edition</title>
                 <author>NAME</author>
                 <editor>Roman Bleier</editor>
             </titleStmt>
@@ -43,6 +43,16 @@
                 <p>start of day 2 on page 2</p>
                 <pb n="3"/>
                 <p>continuation of day 2 on page 3</p>
+            </div>
+            <div type="day" n="3">
+                <p>start of day 3 on page 3</p>
+                <pb n="4"/>
+                <p>continuation of day 3 on page 4</p>
+            </div>
+            <div type="day" n="4">
+                <p>start of day 4 on page 4</p>
+                <pb n="5"/>
+                <p>continuation of day 4 on page 5</p>
             </div>
         </body>
     </text>
